@@ -25675,16 +25675,6 @@ div.dataTables_wrapper div.dataTables_length select {
   border-left: 1px solid #74f9ff !important;
 }
 
-.customMenu {
-  color: #ffffff;
-}
-
-.btn .feather,
-.btn i-feather {
-  height: auto !important;
-  width: auto !important;
-}
-
 .card {
   border: 0 solid transparent;
 }
