@@ -1,0 +1,66 @@
+@import 'color/liteColor';
+
+.cardsticky {
+    position: sticky;
+    /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
+    top: 80px;
+}
+
+.list-group-item:last-child {
+    border: none !important;
+
+    &:active {
+        color: $stickytext !important;
+        background-color: $cardColor !important;
+        border-color: $stickyBorderLeft !important;
+    }
+}
+
+// Card Footer Sticky Page Custom Padding
+// Card Footer Custom Padding
+.dashbottom {
+    border-bottom: 1px dashed !important;
+    padding: 0px !important;
+}
+
+.card-footpd {
+    padding: 0.19rem 0.19rem !important;
+}
+
+// Card Footer Custom Padding
+// Card Footer Sticky Page Custom Padding
+.list-group-item {
+    color: $stickytext  !important;
+    padding: 0.08rem 0.75rem;
+
+    &.active {
+        z-index: 2;
+        color: $stickyBorderLeft !important;
+        font-weight: 550;
+        background-color: $cardColor !important;
+        border-color: $cardColor !important;
+        border-radius: 0px !important;
+        border-left: 1px solid $stickyBorderLeft !important;
+    }
+
+
+}
+
+// Custom Left Active Focus Design
+.leftStyle {
+    border-left: 1px solid $textFocusBright;
+}
+
+// 
+.list-group-item.active {
+    border-left: 1px solid $stickyBorderLeft;
+}
+
+.list-group-item {
+
+    &:hover {
+        background: $cardColor  !important;
+        border-radius: 0px !important; 
+        border-left: 1px solid $stickyBorderLeft !important;
+    }
+}

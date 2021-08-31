@@ -1,0 +1,41 @@
+.loginBox {
+    width: 30rem;
+}
+
+.margin-botto3 {
+    margin-bottom: 2rem;
+}
+
+.margin-bottom4 {
+    margin-bottom: 4rem;
+}
+
+.input-group-textRight {
+    background-color: transparent !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.input-group-textRight svg {
+    height: 17px;
+    width: 17px;
+}
+
+.mLr-2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.hoverSvg svg {
+    color: red;
+    fill: red;
+
+    &:hover {
+        color: white !important;
+        fill: white;
+
+    }
+}
+.aLinkNone a{
+    text-decoration: none;
+}

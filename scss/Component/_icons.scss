@@ -1,0 +1,11 @@
+
+.iconRedu svg {
+    margin: 6px;
+    &:hover {
+        transition-duration: 0.8s;
+        transform: translate(0, -10px);
+        fill: none !important;
+        color: none !important;
+        cursor: pointer;
+    }
+}

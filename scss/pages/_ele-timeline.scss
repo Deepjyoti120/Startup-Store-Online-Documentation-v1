@@ -1,0 +1,225 @@
+
+// Start Timeline Design
+@import '../color/liteColor';
+.timeline-centered {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-centered:after {
+    clear: both;
+}
+
+.timeline-centered:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background: $formColor1 ;
+    left: 50%;
+    top: 20px;
+    bottom: 20px;
+    margin-left: -4px;
+}
+
+.timeline-centered .timeline-start {
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-bottom: 70px;
+    clear: both;
+}
+
+.timeline-centered .timeline-start:before,
+.timeline-centered .timeline-start:after {
+    content: " ";
+    display: table;
+}
+
+.timeline-centered .timeline-start:after {
+    clear: both;
+}
+
+.timeline-centered .timeline-start:before,
+.timeline-centered .timeline-start:after {
+    content: " ";
+    display: table;
+}
+
+.timeline-centered .timeline-start:after {
+    clear: both;
+}
+
+.timeline-centered .timeline-start.begin {
+    margin-bottom: 0;
+}
+
+.timeline-centered .timeline-start.left-aligned {
+    float: left;
+}
+
+.timeline-centered .timeline-start.left-aligned .Timeline-Box {
+    margin-left: 0;
+    margin-right: -18px;
+}
+
+.timeline-centered .timeline-start.left-aligned .Timeline-Box .timeline-time {
+    left: auto;
+    right: -100px;
+    text-align: left;
+}
+
+.timeline-centered .timeline-start.left-aligned .Timeline-Box .timeline-icon {
+    float: right;
+}
+
+.timeline-centered .timeline-start.left-aligned .Timeline-Box .timeline-container {
+    margin-left: 0;
+    margin-right: 70px;
+}
+
+.timeline-centered .timeline-start.left-aligned .Timeline-Box .timeline-container:after {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: -9px;
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.timeline-centered .timeline-start .Timeline-Box {
+    position: relative;
+    margin-left: -22px;
+}
+
+.timeline-centered .timeline-start .Timeline-Box:before,
+.timeline-centered .timeline-start .Timeline-Box:after {
+    content: " ";
+    display: table;
+}
+
+.timeline-centered .timeline-start .Timeline-Box:after {
+    clear: both;
+}
+
+.timeline-centered .timeline-start .Timeline-Box:before,
+.timeline-centered .timeline-start .Timeline-Box:after {
+    content: " ";
+    display: table;
+}
+
+.timeline-centered .timeline-start .Timeline-Box:after {
+    clear: both;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-time {
+    position: absolute;
+    left: -100px;
+    text-align: right;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-time>span {
+    display: block;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-time>span:first-child {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-time>span:last-child {
+    font-size: 12px;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon {
+    background: $formColor1;
+    color: #737881;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 0 5px #f5f5f6;
+    line-height: 40px;
+    font-size: 15px;
+    float: left;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon.bg-primary {
+    background-color: $formColor1;
+    color: #fff;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon.bg-secondary {
+    background-color: #ee4749;
+    color: #fff;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon.bg-success {
+    background-color: #00a651;
+    color: #fff;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon.bg-info {
+    background-color: #21a9e1;
+    color: #fff;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon.bg-warning {
+    background-color: #fad839;
+    color: #fff;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-icon.bg-danger {
+    background-color: #cc2424;
+    color: #fff;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-container {
+    position: relative;
+    background: $textFocusBright;
+    padding: 1.7em;
+    margin-left: 70px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-container:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent $textFocusBright transparent transparent;
+    left: 0;
+    top: 10px;
+    margin-left: -9px;
+}
+
+.timeline-centered .timeline-start .Timeline-Box .timeline-container h2,
+.timeline-centered .timeline-start .Timeline-Box .timeline-container p {
+    color: $textFocusBright;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.428571429;
+}
+// Finished

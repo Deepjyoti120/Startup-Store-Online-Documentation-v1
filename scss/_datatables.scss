@@ -1,0 +1,21 @@
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 60px;
+    border-color: transparent;
+    transition: .2s;
+    width: 200px;
+    border: 1px dashed !important;
+    background-color: #dfe4ea !important;
+    height: 34px;
+
+    &:hover {
+        width: 300px;
+    }
+
+    &:focus {
+        width: 280px;
+        outline: 0;
+    }
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: auto;
+}
