@@ -25621,6 +25621,16 @@ div.dataTables_wrapper div.dataTables_length select {
   height: calc(1.4em + 1rem + 2px);
 }
 
+.customMenu {
+  color: #ffffff;
+}
+
+.btn .feather,
+.btn i-feather {
+  height: auto !important;
+  width: auto !important;
+}
+
 .cardsticky {
   position: sticky;
   /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
