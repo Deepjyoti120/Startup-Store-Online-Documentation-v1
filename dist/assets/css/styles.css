@@ -25111,13 +25111,13 @@ h3, .h3,
 
 .btn-github:hover {
   color: #fff;
-  background-color: #202020;
+  background-color: #202120;
   border-color: #1a1a1a;
 }
 
 .btn-github:focus, .btn-github.focus {
   color: #fff;
-  background-color: #202020;
+  background-color: #202120;
   border-color: #1a1a1a;
   box-shadow: 0 0 0 0.2rem rgba(82, 82, 82, 0.5);
 }
@@ -27100,6 +27100,7 @@ input:checked + .slider2:before {
 
 .docDetails {
   color: #e8ffe8c5;
+  text-align: justify;
 }
 
 a:hover {
